@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign-up form</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -15,25 +15,65 @@
                     <img src="images/logo.png">
                 </div>
                 <h1>ODIN</h1>
+                <!--Add photo credit -->
+                <!-- <div></div> -->
             </div>
         </div>    
 
 
         <!-- Form / Right -->
-        <div>
-            <!-- Quote -->
-            <div>
-
+        <div class="form-sidebar">
+            <!-- Intro -->
+            <div class="intro-section">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+                <p>Sign up <em>now</em> to get started.</p>
+                <p class="spacing">You <em>know</em> you want to.</p>
             </div>
 
             <!-- Form -->
-            <div>
+            <div class="form-section">
+                <h2>Let's do this!</h2>
 
+                <form id="signup-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" id="first-name" name="first-name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" id="last-name" name="last-name" required>
+                        </div>
+                    </div>                  
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="confirm-password">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirm-password" name="confirm-password" required>
+                        </div>
+                    </div>
+                </form>
             </div>
 
             <!-- Create an account -->
-            <div>
-
+            <div class="action-section">
+                <button type="submit" form="signup-form" class="create-account-btn">Create Account</button>
+                <p>Already have an account? <a href="#" class="login-link">Log in</a></p>
             </div>
         </div>       
     </div>
