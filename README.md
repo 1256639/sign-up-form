@@ -1,7 +1,6 @@
 # Sign-up Form
 
-[**Live Demo**](http://1256639.github.io/sign-up-form)<br>
-http://1256639.github.io/sign-up-form
+[**Live Demo**](http://1256639.github.io/sign-up-form)
 
 ---
 
